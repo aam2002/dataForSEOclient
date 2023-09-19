@@ -93,7 +93,7 @@ const NumberedData = () => {
       <div className="numDataContainer">
         {content.map((i) => {
           return (
-            <div className="numDataDisplayBox overflow-scroll" key={i[0]}>
+            <div className="numDataDisplayBox" key={i[0]}>
               <div className="numDataDisplayBox-value">{i[1]}</div>
               <h4 className="numDataDisplayBox-key">
                 {i[0].replace("_", " ")}
